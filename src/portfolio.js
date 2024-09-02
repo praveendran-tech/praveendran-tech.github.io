@@ -200,53 +200,49 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Smart India Hackathon 2019 Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Developed a secure web app for seed transactions with Solidity, Node.js, and React.js, which reduced fraudulent activities by 20% and led the team to the Grand Finals of Smart India Hackathon 2019.",
       image: require("./assets/images/sih.jpeg"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "SIH 2019",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Smart India Hackathon 2020 Finalist",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Simulated energy-efficient drone paths using Unity, R, and Python, leading the team to the Grand Finals of Smart India Hackathon 2020 with a 15% reduction in energy usage.",
         image: require("./assets/images/sih.jpeg"),
-      imageAlt: "Google Assistant Action Logo",
+        imageAlt: "SIH 2020",
       footerLink: [
+      ]
+    },
+
+    {
+      title: "Research Grants during Bachelor's",
+      subtitle: "Published multiple research papers during my bachelors and received about 50,000 INR to perform research",
+      image: require("./assets/images/ssn.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Research Paper 1", url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bf6XtKAAAAAJ&citation_for_view=bf6XtKAAAAAJ:u-x6o8ySG0sC"},
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Research Paper 2",
+          url: "https://link.springer.com/article/10.1007/s10924-019-01408-z"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/sih.jpeg"),
+      title: "Awards at PayPal",
+      subtitle: "Recieved Multiple Awards during my tenure at PayPal for active contributions.",
+      image: require("./assets/images/paypal.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Awards", url: "https://drive.google.com/drive/folders/1wDHMm8UIxanNf1SDBjk2XOhvMTE-ESj5?usp=drive_link"}
       ]
     }
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
