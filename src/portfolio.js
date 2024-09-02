@@ -120,7 +120,7 @@ const educationInfo = {
     {
       schoolName: "University of Maryland",
       logo: require("./assets/images/umd.png"),
-      subHeader: "Master of Engimeering in Software Engineering ",
+      subHeader: "Master of Engineering in Software Engineering ",
       duration: "August 2024 - April 2026"
     },
     {
