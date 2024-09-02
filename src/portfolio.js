@@ -45,12 +45,11 @@ const skillsSection = {
   subTitle: "Enthusiastic Full Stack Developer with a strong desire to explore and master diverse technology stacks.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop scalable, secure applications using Java, React.js, and Spring Boot"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Spearhead migration and optimization projects to enhance system performance"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Drive impactful solutions by reducing customer friction and improving security")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -167,13 +166,17 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "PayPal",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/paypal.png"),
+      date: "February 2021 – August 2024",
+      desc: "Software Engineer 2 , Foundational Commons Platform",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Enhanced API security with OAuth 2.0, reducing security incidents by 30%.",
+        "Spearheaded the development of a customer onboarding and notification tracking system using React.js for the frontend and Java Spring Boot for the backend, resulting in a 25% reduction in customer friction.",
+        "Built an analytical pipeline for push notifications, boosting engagement by 20%.",
+        "Modernized PayPal's notification preference system, migrating from a legacy C++ platform to a Java-based system, resulting in a 75% reduction in MTTR and MTTD during outages.",
+        "Developed a migration pipeline to seamlessly transition customer onboarding data from a legacy database to Oracle MySQL, ensuring data integrity and improving system performance.",
+        "Enhanced the reliability of the SMS infrastructure using observability tools like Splunk, leading to a 15% cost reduction and earning Spot Monetary Bonus Awards in September 2023 and July 2023 for outstanding contributions."
+    ]
     }
   ]
 };
@@ -186,38 +189,6 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Achievement Section
 // Include certificates, talks etc
@@ -232,7 +203,7 @@ const achievementSection = {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/sih.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -253,7 +224,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        image: require("./assets/images/sih.jpeg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -266,7 +237,7 @@ const achievementSection = {
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/sih.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
@@ -315,7 +286,6 @@ export {
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
   achievementSection,
   contactInfo,
   isHireable,
